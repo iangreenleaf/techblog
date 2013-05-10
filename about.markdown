@@ -2,5 +2,8 @@
 title: About
 ---
 
-* [More about Ian](http://www.iangreenleaf.com)
-* [Essays](http://blog.iangreenleaf.com)
+Learn more about Ian at [his personal site](http://www.iangreenleaf.com).
+
+## Ian's other blogs ##
+
+* [Essays on just about anything](http://blog.iangreenleaf.com)
