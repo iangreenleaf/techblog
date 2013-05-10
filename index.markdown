@@ -1,10 +1,10 @@
 ---
-title: Home
+title: Posts
 ---
 
 This is the blog where [Ian][1] writes about technical topics. A founding member of Ian's [blog empire][2].
 
-## All Posts ##
+## Newest First ##
 <ul>\$posts\$</ul>
 
 [1]: http://www.iangreenleaf.com
