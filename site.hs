@@ -15,7 +15,18 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match "index.markdown" $ do
+        route   $ setExtension "html"
+        compile $ do
+            let indexCtx = field "posts" $ \_ ->
+                                postList $ recentFirst
+
+            pandocCompiler
+                >>= applyAsTemplate indexCtx
+                >>= loadAndApplyTemplate "templates/default.html" defaultContext
+                >>= relativizeUrls
+
+    match "*.markdown" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -41,17 +52,6 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-
-    match "index.html" $ do
-        route idRoute
-        compile $ do
-            let indexCtx = field "posts" $ \_ ->
-                                postList $ fmap (take 3) . recentFirst
-
-            getResourceBody
-                >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" postCtx
-                >>= relativizeUrls
 
     match "templates/*" $ compile templateCompiler
 

@@ -1,0 +1,11 @@
+---
+title: Home
+---
+
+This is the blog where [Ian][1] writes about technical topics. A founding member of Ian's [blog empire][2].
+
+## All Posts ##
+<ul>\$posts\$</ul>
+
+[1]: http://www.iangreenleaf.com
+[2]: about.html
