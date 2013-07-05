@@ -2,7 +2,7 @@
 title: Initial Commit
 ---
 
-I like to start all of my personal "chains" -- blogs, social network accounts, and so on, with a small, unimportant placeholder post. I'm not sure why, exactly. I could claim it's to see if everything is configured correctly, but that would only be a partial truth. It just seems... right.
+I like to start all of my personal "chains" -- blogs, social network accounts, and so on, with a small, unimportant placeholder post. I'm not sure why, exactly. I could claim it's to see if everything is configured correctly, but that would only be a partial truth. I do it because it just seems... right.
 
 Rather than delve further into my psyche, let me share a neat trick to follow this same practice in Git. Every Git repository has a first commit. As a matter of religion I have always commented these commits with simply `Initial commit`. In the past I would commit some placeholder for the project -- a Rails skeleton, or a Readme, or whatever code I had so far.
 
