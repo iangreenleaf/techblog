@@ -2,7 +2,7 @@
 title: How to use Rails migrations and schema
 ---
 
-If you've worked on a serious Rails project, chances are you've been told at some point to [check in your schema](http://www.saturnflyer.com/blog/jim/2010/09/14/always-check-in-schema-rb/). However, the reasons *why* we do this are often glossed over by long-time Rails developers who know the history of the feature, leaving newcomers frustrated by a habit that seems confusing or redundant.
+If you've worked on a serious Rails project, chances are you've been told at some point to [check in your schema](http://webcache.googleusercontent.com/search?q=cache:pOhqkWFMkx8J:www.saturnflyer.com/blog/jim/2010/09/14/always-check-in-schema-rb/+&cd=1&hl=en&ct=clnk&gl=us&client=firefox-a). However, the reasons *why* we do this are often glossed over by long-time Rails developers who know the history of the feature, leaving newcomers frustrated by a habit that seems confusing or redundant.
 
 To understand the Rails database management plan, you'll need to keep in mind the needs of two different kinds of people who will be consuming your database changes: the **existing user** and the **new user**.
 
