@@ -41,9 +41,19 @@ div#header #navigation a {
     color: black;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 12px;
+    margin-right: 12px;
     text-decoration: none;
     text-transform: uppercase;
+
+  &.feed-icon {
+    margin-right: 2px;
+    img {
+      height: 22px;
+      // Nudge the icons down a little. Ugly, but good enough for now.
+      position: relative;
+      top: 4px;
+    }
+  }
 }
 
 div#footer {
