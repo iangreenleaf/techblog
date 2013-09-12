@@ -1,8 +1,14 @@
 body {
     color: black;
-    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    width: 36em;
     margin: 0px auto 0px auto;
-    width: 600px;
+}
+
+p {
+  margin: 1.5em 0;
 }
 
 div#header {
@@ -42,11 +48,19 @@ div#footer {
 }
 
 h1 {
-    font-size: 24px;
+    /* 24px */
+    font-size: 1.3333em;
+    line-height: 1.1250em;
+    margin-top: 1.1250em;
+    margin-bottom: 0.0000em;
 }
 
 h2 {
-    font-size: 20px;
+    /* 20px */
+    font-size: 1.11em;
+    line-height: 1.3500em;
+    margin-top: 1.3500em;
+    margin-bottom: 0.0000em;
 }
 
 div.info {
