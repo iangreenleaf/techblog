@@ -144,7 +144,7 @@ RSS 2.0 is the clear favorite. Still, several important feeds use Atom 1.0, nota
 
 There's little consensus here. For Atom feeds, `text/xml` makes an appearance, but several feeds use the most correct `application/atom+xml`.
 
-In the RSS feeds, most stick with the safe bet of `text/xml`. I was surprised to discover that `text/html` is served by web evangelists Jeffrey Zeldman and Eric Meyer, and even more so that is is served by the official W3C news feed[^3]. Unless I am mistaken, this content type is just flat-out wrong and should not be used. I wonder if there is a rationale behind their decisions.
+In the RSS feeds, most stick with the safe bet of `text/xml`. I was surprised to discover that `text/html` is served by web evangelists Jeffrey Zeldman and Eric Meyer, and even more so that is is served by the official W3C news feed. Unless I am mistaken, this content type is just flat-out wrong and should not be used. I wonder if there is a rationale behind their decisions.
 
 ### Autodiscovery ###
 
