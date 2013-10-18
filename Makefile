@@ -1,5 +1,6 @@
 prereqs:
-	cabal install -j hakyll
+	cabal install -j alex happy
+	cabal install -j hakyll pandoc
 
 build:
 	ghc --make site.hs
