@@ -1,5 +1,19 @@
 ---
 title: RSS the least wrong way
+comments: |
+  ## Some sources ##
+  * https://github.com/dpk/diveintomark/blob/master/archive-html/0139b3aa54c3fd762645ac5dfe51d0ebb12297b5.html
+  * http://blogs.msdn.com/b/rssteam/archive/2005/08/02/publishersguide.aspx
+  * http://weblog.philringnalda.com/2005/04/15/what-feeds-should-firefox-discover
+  * http://weblog.philringnalda.com/2005/11/19/the-checkered-history-of-rel
+  * http://tools.ietf.org/html/draft-ietf-atompub-autodiscovery-01
+  
+  # Testing feeds
+  cat feeds | while read line; do echo "$line"; curl -I "$line" | grep '^Content-Type'; done 2>/dev/null
+  
+  # Testing SmartFeed:
+  export UA='Opera/7.0 (Windows NT 5.1; U)  [en]'
+  curl 'http://feeds.feedburner.com/feedburner/EGam111111111111' -H "User-Agent: $UA" -H 'Accept: application/rss+xml' 2>/dev/null | less
 ---
 *Disclaimer: Despite the title, I will discuss both RSS and Atom formats. A more accurate title would be "Content Syndication the least wrong way", but that is just not as snappy.*
 
@@ -100,20 +114,6 @@ The `title` attribute is what's shown here, so make sure you've picked good name
 
 You can even provide links to both an Atom feed *and* an RSS feed for the same content, and let users choose which format to use. However, I recommend *against* doing this - more on that later.
 
-<!---
-## Some sources ##
-
-https://github.com/dpk/diveintomark/blob/master/archive-html/0139b3aa54c3fd762645ac5dfe51d0ebb12297b5.html
-
-http://blogs.msdn.com/b/rssteam/archive/2005/08/02/publishersguide.aspx
-
-http://weblog.philringnalda.com/2005/04/15/what-feeds-should-firefox-discover
-
-http://weblog.philringnalda.com/2005/11/19/the-checkered-history-of-rel
-
-http://tools.ietf.org/html/draft-ietf-atompub-autodiscovery-01
---->
-
 ## The great feed survey ##
 
 Dealing with a poorly-specified area of the web with a spotty history comes with its share of uncertainty. Several of the lessons in this post were learned the hard way after launching this blog and receiving bug reports. Questions of format choices and content types boil down to which combination is going to work correctly for almost everyone, almost all the time. With most of the literature on this subject badly out of date, it's hard to determine which compatibility issues still occur and which are effectively moot.
@@ -151,15 +151,6 @@ In the RSS feeds, most stick with the safe bet of `text/xml`. I was surprised to
 Every feed surveyed supports autodiscovery. Notably, *none* of the feeds except Blogger offered a choice of both RSS and Atom in the autodiscovery tags. This is good UI: presenting users with a choice between two functionally interchangeable formats is unhelpful at best and badly confusing at worst. Given the widespread compatibility of both RSS and Atom, you should pick one and serve that by default.
 
 This admonishment is directed at me as well. Until performing this survey, I had been offering both formats through autodiscovery (in the name of user choice). Upon realizing that I was in a serious minority, I reevaluated and realized that I had made a poor decision. From now on I will be pointing to only one format. I will probably continue to serve the other feed format, but will not be advertising it.
-
-<!---
-# Testing feeds
-cat feeds | while read line; do echo "$line"; curl -I "$line" | grep '^Content-Type'; done 2>/dev/null
-
-# Testing SmartFeed:
-export UA='Opera/7.0 (Windows NT 5.1; U)  [en]'
-curl 'http://feeds.feedburner.com/feedburner/EGam111111111111' -H "User-Agent: $UA" -H 'Accept: application/rss+xml' 2>/dev/null | less
---->
 
 ## In summary ##
 
