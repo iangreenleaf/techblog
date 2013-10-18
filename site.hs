@@ -55,7 +55,7 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-    create ["feed.atom"] $ do
+    create ["feed.xml"] $ do
         route idRoute
         compile $ do
             let feedCtx = postCtx `mappend` bodyField "description"
@@ -65,6 +65,7 @@ main = hakyll $ do
 
         match "templates/*" $ compile templateCompiler
 
+    -- DEPRECATED --
     create ["feed.rss"] $ do
         route idRoute
         compile $ do

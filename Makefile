@@ -10,3 +10,4 @@ sync: build
 	cat ~/.s3cfg | sed 's/\(guess_mime_type.*\)True/\1False/' > .tmpconfig
 	s3cmd put --config=.tmpconfig --mime-type=application/rss+xml _site/*.rss s3://technotes.iangreenleaf.com
 	rm .tmpconfig
+	./upload_redirects s3://technotes.iangreenleaf.com
