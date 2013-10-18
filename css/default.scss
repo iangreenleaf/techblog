@@ -19,6 +19,17 @@ code {
   border-radius: 2px;
 }
 
+pre {
+  max-width: 36em;
+  overflow: auto;
+  background: #eee;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  border-radius: 0.2em;
+  code {
+    padding: 0 0 0 0;
+  }
+}
+
 div#header {
     border-bottom: 2px solid black;
     margin-bottom: 30px;
