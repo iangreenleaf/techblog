@@ -173,7 +173,7 @@ Does your head hurt? Let's distill these discoveries down to a small set of best
 
 [^4]: Eric Meyer's final feed URL is hidden behind two redirects. `http://meyerweb.com/eric/thoughts/rss2/full` -> `http://meyerweb.com/eric/thoughts/feed/full/` -> `http://meyerweb.com/index.php?feed=rss2&scope=full`. o.O
 
-[^5]: The W3 site still lists an Atom feed for autodiscovery, but this URL redirects to the new RSS feed (even though a new Atom feed is available at a different URL). This clearly seems like a mistake. I have contacted them and have yet to hear back.
+[^5]: The W3 site still lists an Atom feed for autodiscovery, but this URL redirects to the new RSS feed (even though a new Atom feed is available at a different URL). This clearly seems like a mistake. I contacted the site maintainers and they are [planning to fix it](http://lists.w3.org/Archives/Public/site-comments/2013Oct/0006.html).
 
 [^7]: If you don't have the very latest release of `s3cmd`, the story gets even more complicated. In older versions, the `guess_mime_type` option, if enabled, will actually override the one you specify (ugh). You'll want to turn that option off in your s3cmd config. Here's my bash hack to temporarily do so while uploading the file:
 
