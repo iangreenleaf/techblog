@@ -122,19 +122,19 @@ I decided the best way to find out which practices were safe would be to check v
 
 | Source | Format | Content Type | Autodiscovery |
 |--------|--------|--------------|---------------|
-| [Blogger (Atom)](http://googleblog.blogspot.com/feeds/posts/default) | Atom 1.0 | application/atom+xml; charset=UTF-8 | `<link rel="alternate" type="application/atom+xml" title="Official Blog - Atom" href="http://googleblog.blogspot.com/feeds/posts/default" />` |
-| [Blogger (RSS)](http://googleblog.blogspot.com/feeds/posts/default?alt=rss) | RSS 2.0 | application/rss+xml; charset=UTF-8 | `<link rel="alternate" type="application/rss+xml" title="Official Blog - RSS" href="http://googleblog.blogspot.com/feeds/posts/default?alt=rss" />` |
-| [Tumblr](http://staff.tumblr.com/rss) | RSS 2.0 | text/xml; charset=utf-8 | `<link rel="alternate" type="application/rss+xml" title="RSS" href="http://staff.tumblr.com/rss"/>` |
-| [Wordpress.com](http://en.blog.wordpress.com/feed/) | RSS 2.0 | text/xml; charset=UTF-8 | `<link rel="alternate" type="application/rss+xml" title="WordPress.com News" href="http://en.blog.wordpress.com/feed/" />` |
-| [Feedburner Status](http://feeds.feedburner.com/feedburnerstatus?format=xml) | Atom 1.0 | text/xml; charset=UTF-8 | |
-| [Jekyll](http://jekyllrb.com/feed.xml) | RSS 2.0 | text/xml | `<link rel="alternate" type="application/rss+xml" title="Jekyll • Simple, blog-aware, static sites - Feed" href="/feed.xml" />` |
-| [Octopress](http://octopress.org/atom.xml) | Atom 1.0 | text/xml | `<link href="/atom.xml" rel="alternate" title="Octopress" type="application/atom+xml">` |
-| [Jeffrey Zeldman](http://www.zeldman.com/feed/) | RSS 2.0 | text/html | `<link rel="alternate" type="application/rss+xml" title="Jeffrey Zeldman Presents The Daily Report RSS Feed. Designing with web standards." href="/rss/" />` |
-| [Eric Meyer](http://meyerweb.com/index.php?feed=rss2&scope=full) | RSS 2.0 | text/html | `<link rel="alternate" type="application/rss+xml" title="Thoughts From Eric" href="/eric/thoughts/rss2/full" />`[^4] |
-| [Daring Fireball / John Gruber](http://daringfireball.net/index.xml)[^2] | Atom 1.0 | application/atom+xml | `<link rel="alternate" type="application/atom+xml" href="/index.xml" />` |
-| [A List Apart](http://feeds.feedburner.com/alistapart/abridged) | RSS 2.0 | text/xml; charset=UTF-8 | `<link rel="alternate" type="application/rss+xml" title="A List Apart: The Full Feed" href="/site/rss" />` |
-| [24 Ways](http://feeds.feedburner.com/24ways) | RSS 2.0 | text/xml; charset=UTF-8 | `<link rel="alternate" type="application/rss+xml" title="rss" href="http://feeds.feedburner.com/24ways" />  ` |
-| [The W3 Consortium](http://www.w3.org/blog/news/feed)[^3] | RSS 2.0 | text/html | `<link rel="alternate" type="application/atom+xml" title="W3C News" href="/News/atom.xml" />`[^5] |
+| [Blogger (Atom)](http://googleblog.blogspot.com/feeds/posts/default) | Atom 1.0 | application/atom+xml; charset=UTF-8 | `<link rel="alternate" type="application/atom+xml" title="Official Blog - Atom" href="http://googleblog.blogspot.com/feeds/posts/default" />` |
+| [Blogger (RSS)](http://googleblog.blogspot.com/feeds/posts/default?alt=rss) | RSS 2.0 | application/rss+xml; charset=UTF-8 | `<link rel="alternate" type="application/rss+xml" title="Official Blog - RSS" href="http://googleblog.blogspot.com/feeds/posts/default?alt=rss" />` |
+| [Tumblr](http://staff.tumblr.com/rss) | RSS 2.0 | text/xml; charset=utf-8 | `<link rel="alternate" type="application/rss+xml" title="RSS" href="http://staff.tumblr.com/rss"/>` |
+| [Wordpress.com](http://en.blog.wordpress.com/feed/) | RSS 2.0 | text/xml; charset=UTF-8 | `<link rel="alternate" type="application/rss+xml" title="WordPress.com News" href="http://en.blog.wordpress.com/feed/" />` |
+| [Feedburner Status](http://feeds.feedburner.com/feedburnerstatus?format=xml) | Atom 1.0 | text/xml; charset=UTF-8 | |
+| [Jekyll](http://jekyllrb.com/feed.xml) | RSS 2.0 | text/xml | `<link rel="alternate" type="application/rss+xml" title="Jekyll • Simple, blog-aware, static sites - Feed" href="/feed.xml" />` |
+| [Octopress](http://octopress.org/atom.xml) | Atom 1.0 | text/xml | `<link href="/atom.xml" rel="alternate" title="Octopress" type="application/atom+xml">` |
+| [Jeffrey Zeldman](http://www.zeldman.com/feed/) | RSS 2.0 | text/html | `<link rel="alternate" type="application/rss+xml" title="Jeffrey Zeldman Presents The Daily Report RSS Feed. Designing with web standards." href="/rss/" />` |
+| [Eric Meyer](http://meyerweb.com/index.php?feed=rss2&scope=full) | RSS 2.0 | text/html | `<link rel="alternate" type="application/rss+xml" title="Thoughts From Eric" href="/eric/thoughts/rss2/full" />`[^4] |
+| [Daring Fireball / John Gruber](http://daringfireball.net/index.xml)[^2] | Atom 1.0 | application/atom+xml | `<link rel="alternate" type="application/atom+xml" href="/index.xml" />` |
+| [A List Apart](http://feeds.feedburner.com/alistapart/abridged) | RSS 2.0 | text/xml; charset=UTF-8 | `<link rel="alternate" type="application/rss+xml" title="A List Apart: The Full Feed" href="/site/rss" />` |
+| [24 Ways](http://feeds.feedburner.com/24ways) | RSS 2.0 | text/xml; charset=UTF-8 | `<link rel="alternate" type="application/rss+xml" title="rss" href="http://feeds.feedburner.com/24ways" />  ` |
+| [The W3 Consortium](http://www.w3.org/blog/news/feed)[^3] | RSS 2.0 | text/html | `<link rel="alternate" type="application/atom+xml" title="W3C News" href="/News/atom.xml" />`[^5] |
 
 ### RSS vs. Atom ###
 
