@@ -53,8 +53,8 @@ Given what I *just* said about Atom feeds, it seems like `application/rss+xml` w
 
 You can easily use `curl` to check that your feed is being served with the correct content type:
 
-```
-$ curl -I technotes.iangreenleaf.com/feed.xml
+```bash
+curl -I technotes.iangreenleaf.com/feed.xml
 ```
 
 Look through the headers in the response for this:
@@ -65,8 +65,9 @@ Content-Type: application/atom+xml
 
 If you are serving your blog from Amazon S3, it will guess (and guess wrong) about the content type it should serve. Give it a hint when uploading the file to prevent this behavior. For example, I use the `s3cmd` tool and pass it an extra option[^7] like so:
 
-```
-s3cmd put --mime-type=application/atom+xml _site/feed.xml s3://technotes.iangreenleaf.com
+```bash
+s3cmd put --mime-type=application/atom+xml \
+  _site/feed.xml s3://technotes.iangreenleaf.com
 ```
 
 ## File names ##
@@ -84,13 +85,15 @@ No need to search around the page for the link to the feed, my browser has found
 The key to enabling RSS discovery is adding a `<link>` element inside your `<head>`. Here is an Atom feed:
 
 ```html
-<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Atom Feed" />
+<link rel="alternate" type="application/atom+xml"
+  href="/feed.xml" title="Atom Feed" />
 ```
 
 And an RSS feed:
 
 ```html
-<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
+<link rel="alternate" type="application/rss+xml"
+  title="RSS Feed" href="/feed.xml" />
 ```
 
 The `rel` attribute is very important. It must contain `alternate` and only `alternate`, or some clients will stumble.
@@ -102,8 +105,10 @@ The `title` attribute must exist, but may contain whatever you like. Just name i
 It's also possible to offer multiple feeds from one page by using more than one `<link>`:
 
 ```html
-<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Ian's Blog Feed" />
-<link rel="alternate" type="application/atom+xml" href="./comments.xml" title='Comments on "This Post"' />
+<link rel="alternate" type="application/atom+xml"
+  href="/feed.xml" title="Ian's Blog Feed" />
+<link rel="alternate" type="application/atom+xml"
+  href="./comments.xml" title='Comments on "This Post"' />
 ```
 
 If you do this, users will be shown a selection screen to pick the feed they want.
@@ -156,14 +161,16 @@ This admonishment is directed at me as well. Until performing this survey, I had
 
 Does your head hurt? Let's distill these discoveries down to a small set of best practices. Here's a mildly opinionated guide to serving a successful content feed:
 
-1. Use Atom 1.0.
-2. Generate a file named `feed.xml`. Serve it with the content type `application/atom+xml`.
-3. Put this in the `<head>` element of your site:
-   ```
-   <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="My Blog Feed" />
-   ```
-   Change only the `title`.
-4. Try to forget all that you have witnessed here today.
+ 1. Use Atom 1.0.
+ 2. Generate a file named `feed.xml`. Serve it with the content type `application/atom+xml`.
+ 3. Put this in the `<head>` element of your site:
+
+    ```html
+    <link rel="alternate" type="application/atom+xml"
+      href="/feed.xml" title="My Blog Feed" />
+    ```
+    Change only the `title`.
+ 4. Try to forget all that you have witnessed here today.
 
 [^1]: Feedburner offers an optional service for feed publishing called SmartFeed that claims to serve the best format (RSS or Atom) to each client. In practice, they serve Atom feeds by default, with a user-agent blacklist of clients that receive RSS instead. In practice, few Feedburner feeds seem to be using this service. The official Feedburner status feed and the official Google news feed both appear to have this option disabled, and always serve Atom.
 
@@ -177,7 +184,7 @@ Does your head hurt? Let's distill these discoveries down to a small set of best
 
 [^7]: If you don't have the very latest release of `s3cmd`, the story gets even more complicated. In older versions, the `guess_mime_type` option, if enabled, will actually override the one you specify (ugh). You'll want to turn that option off in your s3cmd config. Here's my bash hack to temporarily do so while uploading the file:
 
-    ```sh
+    ```bash
     cat ~/.s3cfg | sed 's/\(guess_mime_type.*\)True/\1False/' > .tmpconfig
     s3cmd put --mime-type=application/atom+xml _site/feed.xml s3://technotes.iangreenleaf.com
     rm .tmpconfig
