@@ -92,6 +92,15 @@ h2 {
     margin-bottom: 0.0000em;
 }
 
+table {
+  border-spacing: 1em;
+  // Offset the stupid border-spacing on the outer edge
+  margin: -1em;
+  th {
+    border-bottom: 2px solid #ccc;
+  }
+}
+
 div.info {
     color: #555;
     font-size: 14px;
