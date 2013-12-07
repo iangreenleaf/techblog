@@ -1,1 +1,5 @@
 * Add rel=me to links. Maybe in postprocessing?
+* Create a .foreword element
+* Better footnote styling?
+* Code highlighting
+* h3, h4 styling
