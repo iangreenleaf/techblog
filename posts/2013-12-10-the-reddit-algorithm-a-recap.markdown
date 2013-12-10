@@ -74,6 +74,13 @@ Another user contends that ["Controversial" is the real worst sort implementatio
 
 And then there's [this story](http://www.reddit.com/r/programming/comments/1si31j/reddits_empire_is_founded_on_a_flawed_algorithm/cdy13zc?context=3). I don't have a lot to say about that.
 
+Most importantly of all, [/r/BirdPics](http://www.reddit.com/r/birdpics) is ***holding a Puffin Day in my honor***.
+
+![Puffin Day at /r/BirdPics](/images/2013-12-10-the-reddit-algorithm-a-recap/puffin_day.png)\ 
+
+You guys... you really shouldn't have. What an honor. I don't have the words to tell you how
+much this means to me. No, no I'm fine. I just got something in my eye.
+It's fine. Just an eyelash. Runny nose. It's fine.
 
 [^1]: These corrections also provide an answer as to whether anyone reads the footnotes.
 [^2]: You should realize that I never, ever imagined that a technical post written for a technical
