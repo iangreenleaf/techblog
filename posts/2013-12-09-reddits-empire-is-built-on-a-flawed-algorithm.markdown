@@ -8,7 +8,7 @@ Reddit has a bug in their code. This bug is currently present in their productio
 
 Reddit needs to determine which articles are "hot" right now. Newer material is better than older material. Material with many positive votes is better than material with few votes, and both are better than material with mostly negative votes. This is pretty straightforward to calculate. One determines numeric values representing these two measures, and multiplies by some constants to determine exactly how much priority each measure gets[^4].
 
-The devil is in the details, or in this case, [the implementation](https://github.com/iangreenleaf/reddit/blob/952a4509ee49704502013993266abf7cdefad205/r2/r2/lib/db/_sorts.pyx#L45).
+The devil is in the details, or in this case, [the implementation](https://github.com/iangreenleaf/reddit/blob/45e8209d8d4236367a6f7247068c13ab2307afb4/r2/r2/lib/db/_sorts.pyx#L45).
 
 ```python
 seconds = date - 1134028003
