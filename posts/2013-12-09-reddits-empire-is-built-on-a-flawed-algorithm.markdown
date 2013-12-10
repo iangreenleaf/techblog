@@ -1,5 +1,5 @@
 ---
-title: Reddit's empire is founded on a flawed algorithm
+title: Reddit’s empire is founded on a flawed algorithm
 ---
 
 Reddit has a bug in their code. This bug is currently present in their production platform, and has been for years. It affects one of the most important algorithms in the entire site, the "Hot" ranking algorithm for link popularity. It has real, demonstrable negative effects. It has been reported to Reddit's technical team several times and never fixed.
