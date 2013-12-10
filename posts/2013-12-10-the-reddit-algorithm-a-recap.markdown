@@ -7,7 +7,7 @@ detailing a flaw in the Reddit ranking system, the consequences, and the respons
 it was [#1 on Reddit](http://www.reddit.com/r/technology/comments/1siiiw/reddits_empire_is_founded_on_a_flawed_algorithm/)
 and [#2 on Hacker News](https://news.ycombinator.com/item?id=6878369). I was not expecting this, to say the least.
 
-## Response ##
+## Rejoinder ##
 
 The Reddit developers spoke up again in the comments to explain themselves a little further.
 Notably, for the first time that I'm aware of, there is
