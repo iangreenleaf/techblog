@@ -57,6 +57,20 @@ Click through for my responses and further discussion.
   and thus still a measure of "hotness".
 * That banishment [helps with spam/noise control](http://www.reddit.com/r/programming/comments/1si31j/reddits_empire_is_founded_on_a_flawed_algorithm/cdxwu8p), because spam will quickly receive several downvotes.
 
+## Action ##
+
+In response to my article, [/r/Chicago](http://www.reddit.com/r/chicago) is launching
+[a month-long experiment disabling downvotes](http://www.reddit.com/r/chicago/comments/1smy3u/more_pictures_less_downvotes/)
+in their subreddit. I'll be very interested to see how it turns out for them.
+
+Most importantly of all, [/r/BirdPics](http://www.reddit.com/r/birdpics) ***held a Puffin Day in my honor***.
+
+![Puffin Day at /r/BirdPics](/images/2013-12-10-the-reddit-algorithm-a-recap/puffin_day.png)\ 
+
+You guys... you really shouldn't have. What an honor. I don't have the words to tell you how
+much this means to me. No, no I'm fine. I just got something in my eye.
+It's fine. Just an eyelash. Runny nose. It's fine. Excuse me for a moment.
+
 ## Corrections ##
 
 A number of people helpfully pointed out that the fluctuating vote numbers I was seeing were due to [vote fuzzing](http://www.reddit.com/r/WTF/comments/eaqnf/pardon_me_but_5000_downvotes_wtf_is_worldnews_for/c16omup?context=3), an anti-spam feature. I have corrected that footnote[^1].
@@ -70,17 +84,9 @@ Someone else corrected my statement that Reddit has "tons of cash flowing in" by
 Did you know that [Randall Munroe has taken an interest in Reddit's ranking algorithms](http://blog.reddit.com/2009/10/reddits-new-comment-sorting-system.html)?
 Well, now you do.
 
-Another user contends that ["Controversial" is the real worst sort implementation](http://www.reddit.com/r/programming/comments/1si31j/reddits_empire_is_founded_on_a_flawed_algorithm/cdxycdk). Another great discussion there.
+Another user contends that ["Controversial" is the real worst sort implementation](http://www.reddit.com/r/programming/comments/1si31j/reddits_empire_is_founded_on_a_flawed_algorithm/cdxycdk). Some good discussion ensues.
 
 And then there's [this story](http://www.reddit.com/r/programming/comments/1si31j/reddits_empire_is_founded_on_a_flawed_algorithm/cdy13zc?context=3). I don't have a lot to say about that.
-
-Most importantly of all, [/r/BirdPics](http://www.reddit.com/r/birdpics) is ***holding a Puffin Day in my honor***.
-
-![Puffin Day at /r/BirdPics](/images/2013-12-10-the-reddit-algorithm-a-recap/puffin_day.png)\ 
-
-You guys... you really shouldn't have. What an honor. I don't have the words to tell you how
-much this means to me. No, no I'm fine. I just got something in my eye.
-It's fine. Just an eyelash. Runny nose. It's fine.
 
 [^1]: These corrections also provide an answer as to whether anyone reads the footnotes.
 [^2]: You should realize that I never, ever imagined that a technical post written for a technical
