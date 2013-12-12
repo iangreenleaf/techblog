@@ -79,6 +79,14 @@ I linked to the wrong piece of code when discussing the bug, leading some people
 
 Someone else corrected my statement that Reddit has "tons of cash flowing in" by pointing out that they're still not profitable. I haven't amended that because that's just mean.
 
+## Press ##
+
+I'm tickled, because I never viewed this as "breaking a story". Nevertheless, the business press seems to be picking it up.
+We'll see if any thoughtful articles come out of it. Not yet.
+
+* <a href="http://www.businessinsider.com/two-programmers-claim-reddits-voting-algorithm-is-flawed-2013-12" rel="nofollow">Business Insider</a>
+* <a href="http://www.ibtimes.com/reddit-bug-affects-ranking-algorithm-programmer-identifies-glitch-allows-manipulation-censorship" rel="nofollow">International Business Times</a>
+
 ## Miscellany ##
 
 Did you know that [Randall Munroe has taken an interest in Reddit's ranking algorithms](http://blog.reddit.com/2009/10/reddits-new-comment-sorting-system.html)?
