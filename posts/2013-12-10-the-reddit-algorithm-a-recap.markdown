@@ -81,8 +81,12 @@ Someone else corrected my statement that Reddit has "tons of cash flowing in" by
 
 ## Press ##
 
-I'm tickled, because I never viewed this as "breaking a story". Nevertheless, the business press seems to be picking it up.
-We'll see if any thoughtful articles come out of it. Not yet.
+Anthony Wing Kosner did
+[a solid writeup on the Forbes blog](http://www.forbes.com/sites/anthonykosner/2013/12/12/is-reddits-success-the-result-of-a-happy-accident-of-code/),
+and advances his own theory on the reasons behind the ranking behavior.
+
+A few other writeups have happened in the business press.
+I won't vouch for their quality, but here they are.
 
 * <a href="http://www.businessinsider.com/two-programmers-claim-reddits-voting-algorithm-is-flawed-2013-12" rel="nofollow">Business Insider</a>
 * <a href="http://www.ibtimes.com/reddit-bug-affects-ranking-algorithm-programmer-identifies-glitch-allows-manipulation-censorship" rel="nofollow">International Business Times</a>
