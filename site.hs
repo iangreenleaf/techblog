@@ -98,6 +98,6 @@ myFeedConfiguration = FeedConfiguration
     { feedTitle       = "Ian's Tech Notes"
     , feedDescription = "Posts on technical topics. Ruby, web development, security, and more."
     , feedAuthorName  = "Ian Young"
-    , feedAuthorEmail = "ian.greenleaf@gmail.com"
+    , feedAuthorEmail = "ian@iangreenleaf.com"
     , feedRoot        = "http://technotes.iangreenleaf.com"
     }
