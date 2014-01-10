@@ -5,9 +5,12 @@ date: 2014-01-10
 
 The hottest new thing in our increasingly fad-obsessed web development world is icon fonts. The most popular one of these is [FontAwesome](http://fortawesome.github.com/Font-Awesome/), which found the magic combination of providing a nice icon set and piggybacking on the ultimate web design fad, Bootstrap. Yes, FontAwesome is a nicely-designed icon set, and I have nothing against it personally, it's just that FontAwesome and every other icon font are built on a *stupid fucking idea*.
 
-<svg width="192" height="192" class="image">
-  <image xlink:href="/images/font-awesome-not-awesome/poop.svg" src="/images/font-awesome-not-awesome/poop.png" width="192" height="192"/>
-</svg><span class="image-attr">[^1]</span>
+<div class="image-container">
+  <svg width="192" height="192" class="image">
+    <image xlink:href="/images/font-awesome-not-awesome/poop.svg" src="/images/font-awesome-not-awesome/poop.png" width="192" height="192"/>
+  </svg>
+  <span class="image-attr">[^1]</span>
+</div>
 
 We're two weeks into a new project and our designers are adding extra markup to just one of the elements in a navigation list so they can apply a CSS rotate transform, because they need an ellipsis icon which FontAwesome doesn't fucking provide, so they're turning one of the "list" icons on its side instead so it looks like an ellipsis if you squint. Now, this is a problem one has with any stock icon set - you inevitably run into situations where the set, no matter how large, is missing that one crucial icon that you need right now. So you face the choice of shoehorning in some icon that doesn't really fit and will definitely confuse your users, or creating your own addition and trying to match the style of the others. However, when you use an icon font your problems have just **doubled** because nobody, anywhere, incorporates editing font faces as an ordinary part of their workflow. How many of your designers know how to use FontForge? Zero? Yeah, I thought so.
 

@@ -87,14 +87,23 @@ div#header #navigation a {
       }
     }
   }
-  .image {
-    display: block;
-    margin: auto;
-  }
-  .image-attr {
-    // Footnotes for image attr can be hidden, because the footnote will still show up.
-    .footnoteRef {
-      @include squish-text;
+  // Shenanigans!
+  // Goals for this element are as follows:
+  // 1. Center the image itself
+  // 2. Hide the image attribution, because the footnote will still show up
+  // 3. Have the footnote anchor point to the *top* of the image
+  .image-container {
+    position: relative;
+    .image {
+      display: block;
+      margin: auto;
+    }
+    .image-attr {
+      .footnoteRef {
+        @include squish-text;
+        position: absolute;
+        top: 0;
+      }
     }
   }
 }
