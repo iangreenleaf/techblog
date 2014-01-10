@@ -85,6 +85,16 @@ div#header #navigation a {
       }
     }
   }
+  .image {
+    display: block;
+    margin: auto;
+  }
+  .image-attr {
+    // Footnotes for image attr can be hidden, because the footnote will still show up.
+    .footnoteRef {
+      @include squish-text;
+    }
+  }
 }
 
 div#footer {
