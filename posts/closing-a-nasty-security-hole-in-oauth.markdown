@@ -44,7 +44,7 @@ We assume that receiving a working token for a user means we're talking to that 
 3. Alice completes the OAuth flow in EvilApp. EvilApp now has a valid OAuth token from Google on behalf of Alice.
 4. The evil people behind EvilApp open a browser and send that token to CapyApp's OAuth callback, pretending to be Alice completing the sign-in process.
 5. CapyApp uses the token to pull Google profile information and sees that the token was issued on behalf of Alice.
-6. CapyApp wrongly assumes that it's dealing with Alice and provides access to Alice's profile and private messages. All of Alice's private CapyApp data is now in the hands of EvilApp, including drafts of some rather unfortunate erotic fiction.
+6. CapyApp wrongly assumes that it's dealing with Alice and provides access to Alice's profile and private messages. All of Alice's private CapyApp data is now in the hands of EvilApp, including her confidential business plans for CapyCoin, the world's premiere capybara-themed cryptocurrency.
 
 This mistake is very easy to commit. Our intuition dupes us into thinking that a call to an OAuth callback will always come directly from the provider's authentication, but the stateless nature of the web means that it may come from anywhere.
 
