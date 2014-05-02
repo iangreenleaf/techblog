@@ -7,8 +7,7 @@ build:
 	./site rebuild
 
 publish: build
-	s3cmd sync --delete-removed _site/* s3://technotes.iangreenleaf.com
-	cat ~/.s3cfg | sed 's/\(guess_mime_type.*\)True/\1False/' > .tmpconfig
-	s3cmd put --config=.tmpconfig --mime-type=application/rss+xml _site/*.rss s3://technotes.iangreenleaf.com
-	rm .tmpconfig
+	s3cmd sync --no-mime-magic --delete-removed _site/* s3://technotes.iangreenleaf.com
+	s3cmd put --mime-type=application/rss+xml _site/*.rss s3://technotes.iangreenleaf.com
+	s3cmd put --mime-type=application/atom+xml _site/feed.xml s3://technotes.iangreenleaf.com
 	./upload_redirects s3://technotes.iangreenleaf.com
