@@ -69,4 +69,4 @@ It's a clever attack. It combines the unavoidably stateless nature of OAuth with
 
 [^7]: The best case is that Alice has not yet signed in to CoypuApp, and so when she clicks the link she is prompted to "Allow CoypuApp to see my Facebook information". This might tip Alice off that something is wrong. But ordinary people find the Internet very confusing and more often than not will simply follow the instructions. So this isn't much of a "best" case.
 
-[^8]: [Ian Lunderskov](https://twitter.com/lundersaur) insists that I credit him for his role in the development of this imaginary web application.
+[^8]: [Ian Lunderskov](https://twitter.com/lundersaur) insists that I credit him for his role in the development of this imaginary web application. And also that I belatedly credit him for the development of an imaginary capybara-based cryptocurrency.
