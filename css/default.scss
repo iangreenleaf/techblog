@@ -70,6 +70,17 @@ div#header #navigation a {
 }
 
 #content {
+  // Footnote indices
+  sup {
+    font-size: 0.75em;
+    line-height: 0;
+    vertical-align: super;
+    position: relative;
+    top: 0.15em;
+    a {
+      text-decoration: none;
+    }
+  }
   .footnotes {
     font-size: 16px;
     &>hr {
