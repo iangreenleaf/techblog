@@ -32,7 +32,7 @@ rbenv rehash
 bundle exec rspec --seed=123 spec/awesome_spec.rb
 ```
 
-If it still doesn't work, try prepending an `rbenv exec` to your command, *still keeping* the `bundle_exec`:
+If it still doesn't work, try prepending an `rbenv exec` to your command, *still keeping* the `bundle exec`:
 
 ```sh
 rbenv exec bundle exec rspec --seed=123 spec/awesome_spec.rb
