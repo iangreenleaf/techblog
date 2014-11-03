@@ -54,6 +54,10 @@ Let's fix this once and for all.
 
 Was your problem solved by using `bundle exec`?
 There are two parts to this.
+
+Fair warning: I'm going to show you a method that is slightly insecure, in exchange for being the most convenient and causing the fewest headaches.
+If you're concerned about this, you should consider one of the alternatives[^4].
+
 First, open your `~/.bashrc` or `~/.bash_profile`, whichever you prefer[^2].
 Add this line, probably somewhere near the bottom:
 
@@ -174,3 +178,25 @@ You've done good work today.
       So the shell searches for `ruby`, and this time it finds `~/.rbenv/shims/ruby`.
       It invokes the `ruby` shim, which selects the correct version of Ruby and uses that to run the rest of the Bundler stub, which finds and runs the correct version of the gem executable.
       Alternate explanation: Unix Magic!
+[^4]: Adding a relative path like `./bin` to your `$PATH` is insecure because it could potentially allow someone to trick you into running something you don't want.
+      If you `cd` to a directory and run `ls`, for example, someone could inject a malicious `bin/ls` executable in that directory and you would run that instead of the regular system `ls` that you expected, and bad things would happen.
+      I don't find this particular bogeyman all that frightening for my everyday (non-mission-critical) computing needs, but you can decide for yourself.
+      If this concerns you, you'll have to decide which alternative solution you'd prefer:
+
+       * If you only have a small number of Ruby projects, you could add only the full paths instead of using a relative path, like this:
+
+         ```
+         PATH=/home/me/code/myrubyproj/bin:$PATH
+         ```
+
+       * If you are using RubyGems version 2.4.2 or higher, you can leave out the `PATH` modification and instead put this line into your `.bashrc`:
+
+         ```
+         RUBYGEMS_GEMDEPS=-
+         ```
+
+         This is the solution of the future, and provides the same convenience without the security flaw.
+         Unfortunately, it's very new and still has some serious bugs that will cause errors on Gemfiles that use the more advanced features of Bundler.
+
+       * If you don't mind the inconvenience, you can remember to run all the commands with `bin` on the front, i.e. `bin/rspec`.
+         The trick here is to get good at recognizing the weird errors that result every time you forget to add `bin`, so that you can immediately re-run the command with the needed prefix.
