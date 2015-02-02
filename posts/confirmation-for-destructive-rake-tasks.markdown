@@ -5,7 +5,7 @@ date: 2015-02-02
 
 Lately I've been building some Rake tasks that do destructive things. I need them, and I need them to be destructive. But I also need to be very sure they don't run at the wrong time.
 
-This is part of my sysadmin philosophy: automate everything that's possible to automate, and double- or triple-guard everything else against my own presumed and eventual incompetence.
+This is part of my sysadmin philosophy: automate everything that's possible to automate, and double- or triple-guard everything else against my own presumed eventual fallibility.
 
 ```ruby
 # lib/tasks/my_task.rb
