@@ -20,7 +20,7 @@ Certainly I am taking a grave risk[^2] in sharing this private information with 
 
 ![I never found an answer to my question.[^3]](/images/an-illustrated-tour-of-my-sitekey-secret-images/sitekey5.png)
 
-The trick to getting these sort of results for yourself is simple. Most SiteKey systems offer you the ability to page through sets of images as you're picking. But with a sort of adorable dedication to detail in their ultimately useless system, these are not discrete pages from a limited set of images. Each "page" is actually a randomized set pulled from some vast store of stock photos. So you can click the next page button as many times as you like, giving you access to a virtually-unlimited set of images. With this much choice, it's only a matter of time before some strange results appear.
+The trick to getting these sort of results for yourself is simple. Most SiteKey systems offer you the ability to page through sets of images as you're picking. But with a sort of adorable dedication to detail in their ultimately useless system, these are not discrete pages from a limited set of images. Each "page" is actually a randomized set pulled from some vast store of stock photos. So you can click the next page button as many times as you like[^4], giving you access to a virtually-unlimited set of images. With this much choice, it's only a matter of time before some strange results appear.
 
 For the caption, though, you're on your own.
 
