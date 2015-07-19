@@ -1,0 +1,5 @@
+@mixin width-min-content {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}

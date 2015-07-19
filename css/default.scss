@@ -1,4 +1,5 @@
 @import "css/compass/typography/text/replacement";
+@import "mixins";
 
 body {
   color: black;
@@ -164,4 +165,18 @@ div.info {
   color: #555;
   font-size: 14px;
   font-style: italic;
+}
+
+.figure {
+  @include width-min-content;
+  .caption {
+    color: #444;
+    font-size: 0.75em;
+    font-style: italic;
+    line-height: 1em;
+    border-top: 1px dashed #ccc;
+    margin-top: 0.1em;
+    padding-top: 0.4em;
+    margin-bottom: (1.5em / 0.75);
+  }
 }
