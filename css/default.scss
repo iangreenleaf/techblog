@@ -169,15 +169,16 @@ div.info {
 }
 
 .figure {
+  margin: 1.5em 0;
+  background: #f3f3f3;
+  border: 1px solid #ccc;
+  padding: 3px;
   @include width-min-content;
   .caption {
     color: #444;
     font-size: 0.75em;
     font-style: italic;
     line-height: 1em;
-    border-top: 1px dashed #ccc;
-    margin-top: 0.1em;
-    padding-top: 0.4em;
-    margin-bottom: (1.5em / 0.75);
+    margin: 0.5em 0.1em 1em 0.2em;
   }
 }
