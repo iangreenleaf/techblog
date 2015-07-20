@@ -1,4 +1,5 @@
 prereqs:
+	cabal update
 	cabal install -j alex happy
 	cabal install -j hakyll pandoc
 
