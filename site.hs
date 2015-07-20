@@ -1,7 +1,8 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
-import           Hakyll
+import Data.Monoid (mappend)
+import Control.Monad (liftM)
+import Hakyll
 
 
 --------------------------------------------------------------------------------
@@ -11,11 +12,12 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*.scss" $ do
+    match (fromRegex "css/[^_]*.scss") $ do
         route   $ setExtension "css"
-        compile $ getResourceString >>=
-          withItemBody (unixFilter "sass" ["-s", "--scss"]) >>=
-          return . fmap compressCss
+        compile $ liftM (fmap compressCss) $
+          getResourceFilePath >>=
+          \fp -> unixFilter "sass" ["--scss", fp] "" >>=
+          makeItem
 
     match "index.markdown" $ do
         route   $ setExtension "html"
