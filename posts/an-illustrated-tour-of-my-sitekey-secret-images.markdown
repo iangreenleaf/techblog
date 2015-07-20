@@ -3,7 +3,7 @@ title: An illustrated tour of my SiteKey secret images
 date: 2015-07-20
 ---
 
-Somehow, and I know this is hard to believe, my [exposé of SiteKey's failings]() six years ago wasn't the final stake through its heart like I had hoped.
+Somehow, and I know this is hard to believe, my [exposé of SiteKey's failings](http://blog.iangreenleaf.com/2009/07/worse-than-nothing.html) six years ago wasn't the final stake through its heart like I had hoped.
 SiteKey is still very much alive and just as useless as ever.
 
 I hate it, and I hate putting up with their useless security theater[^1].
