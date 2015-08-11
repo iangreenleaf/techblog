@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="485.81" width="558" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata128">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs4">
+  <linearGradient id="mx-gradient-dae8fc-1-7ea6e0-1-s-0" x2="0" y2="1">
+   <stop id="stop7" stop-color="#DAE8FC" offset="0"/>
+   <stop id="stop9" stop-color="#7EA6E0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="mx-gradient-97d077-1-d5e8d4-1-s-0" y1="1" x2="0">
+   <stop id="stop12" stop-color="#D5E8D4" offset="0"/>
+   <stop id="stop14" stop-color="#97D077" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4209" x1="195.45" xlink:href="#mx-gradient-dae8fc-1-7ea6e0-1-s-0" gradientUnits="userSpaceOnUse" y1="819.26" gradientTransform="matrix(1.8598 0 0 .53768 -919.5 -48)" x2="195.45" y2="932.71"/>
+  <linearGradient id="linearGradient4211" x1="191.8" xlink:href="#mx-gradient-dae8fc-1-7ea6e0-1-s-0" gradientUnits="userSpaceOnUse" y1="843.26" gradientTransform="matrix(1.9057 0 0 .52475 -919.5 -48)" x2="191.8" y2="951.88"/>
+  <linearGradient id="linearGradient4213" x1="9.9471" xlink:href="#mx-gradient-dae8fc-1-7ea6e0-1-s-0" gradientUnits="userSpaceOnUse" y1="322.68" gradientTransform="matrix(1.8598 0 0 .53768 -229.5 -48)" x2="9.9471" y2="436.13"/>
+  <linearGradient id="linearGradient4215" x1="10.757" xlink:href="#mx-gradient-dae8fc-1-7ea6e0-1-s-0" gradientUnits="userSpaceOnUse" y1="334.45" gradientTransform="matrix(1.9057 0 0 .52475 -229.5 -48)" x2="10.757" y2="443.07"/>
+  <linearGradient id="linearGradient4217" x1="9.9471" xlink:href="#mx-gradient-dae8fc-1-7ea6e0-1-s-0" gradientUnits="userSpaceOnUse" y1="782.06" gradientTransform="matrix(1.8598 0 0 .53768 -229.5 -48)" x2="9.9471" y2="895.51"/>
+  <linearGradient id="linearGradient4219" x1="10.757" xlink:href="#mx-gradient-dae8fc-1-7ea6e0-1-s-0" gradientUnits="userSpaceOnUse" y1="805.15" gradientTransform="matrix(1.9057 0 0 .52475 -229.5 -48)" x2="10.757" y2="913.77"/>
+  <linearGradient id="linearGradient4221" y2="168.32" xlink:href="#mx-gradient-97d077-1-d5e8d4-1-s-0" gradientUnits="userSpaceOnUse" x2="9.9471" gradientTransform="matrix(1.8598 0 0 .53768 -229.5 -48)" y1="281.77" x1="9.9471"/>
+  <linearGradient id="linearGradient4223" y2="413.82" xlink:href="#mx-gradient-97d077-1-d5e8d4-1-s-0" gradientUnits="userSpaceOnUse" x2="195.45" gradientTransform="matrix(1.8598 0 0 .53768 -919.5 -48)" y1="527.27" x1="195.45"/>
+  <linearGradient id="linearGradient4225" x1="195.45" xlink:href="#mx-gradient-dae8fc-1-7ea6e0-1-s-0" gradientUnits="userSpaceOnUse" y1="558.88" gradientTransform="matrix(1.8598 0 0 .53768 -919.5 -48)" x2="195.45" y2="672.33"/>
+  <linearGradient id="linearGradient4227" x1="191.8" xlink:href="#mx-gradient-dae8fc-1-7ea6e0-1-s-0" gradientUnits="userSpaceOnUse" y1="576.47" gradientTransform="matrix(1.9057 0 0 .52475 -919.5 -48)" x2="191.8" y2="685.09"/>
+  <linearGradient id="linearGradient4229" y2="400.52" xlink:href="#mx-gradient-97d077-1-d5e8d4-1-s-0" gradientUnits="userSpaceOnUse" x2="13.418" gradientTransform="matrix(1.3787 0 0 .72530 -229.5 -48)" y1="553.56" x1="13.418"/>
+ </defs>
+ <rect id="rect18" transform="scale(-1,1)" rx="9" ry="9" height="60" width="210" stroke="#d0d0d0" y="396" x="-557.5" fill="#d0d0d0"/>
+ <rect id="rect20" transform="scale(-1,1)" pointer-events="none" rx="9" ry="9" height="60" width="210" stroke="#6c8ebf" y="393" x="-555.5" fill="url(#linearGradient4209)"/>
+ <rect id="rect22" transform="scale(-1,1)" pointer-events="none" rx="8.4" ry="8.4" height="56" width="206" stroke="#6c8ebf" y="395" x="-553.5" fill="url(#linearGradient4211)"/>
+ <g id="g24" transform="translate(397.16 407.93)">
+  <switch id="switch26">
+   <foreignObject width="106" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" pointer-events="all" height="21">
+    <xhtml:div font-size="16px" font-family="Helvetica" style="color:rgb(0, 0, 0);width:106px;text-align:center;vertical-align:top;white-space:normal" line-height="1.2" display="inline-block">
+     <xhtml:div style="text-align:inherit;text-decoration:inherit" display="inline-block">DB queries
+      <xhtml:br/>
+     </xhtml:div>
+    </xhtml:div>
+   </foreignObject>
+   <text id="text28" style="text-anchor:middle" font-size="16px" y="19" x="53" font-family="Helvetica" line-height="125%" fill="#000000">
+    <tspan id="tspan4412" font-size="16px" style="text-anchor:middle;text-align:center" line-height="125%" font-family="Aller">DB queries</tspan>
+   </text>
+  </switch>
+ </g>
+ <rect id="rect30" transform="scale(-1,1)" rx="9" ry="9" height="60" width="210" stroke="#d0d0d0" y="129" x="-212.5" fill="#d0d0d0"/>
+ <rect id="rect32" transform="scale(-1,1)" pointer-events="none" rx="9" ry="9" height="60" width="210" stroke="#6c8ebf" y="126" x="-210.5" fill="url(#linearGradient4213)"/>
+ <rect id="rect34" transform="scale(-1,1)" pointer-events="none" rx="8.4" ry="8.4" height="56" width="206" stroke="#6c8ebf" y="128" x="-208.5" fill="url(#linearGradient4215)"/>
+ <g id="g36" transform="translate(7.8335,142.75)">
+  <switch id="switch38">
+   <foreignObject width="196" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" pointer-events="all" height="21">
+    <xhtml:div font-size="16px" font-family="Helvetica" style="color:rgb(0, 0, 0);width:196px;text-align:center;vertical-align:top;white-space:normal" line-height="1.2" display="inline-block">
+     <xhtml:div style="text-align:inherit;text-decoration:inherit" display="inline-block">START TRANSACTION
+      <xhtml:br/>
+     </xhtml:div>
+    </xhtml:div>
+   </foreignObject>
+   <text id="text40" style="text-anchor:middle" font-size="16px" y="19" x="98" font-family="Helvetica" line-height="125%" fill="#000000">
+    <tspan id="tspan4402" font-size="16px" style="text-anchor:middle;text-align:center" line-height="125%" font-family="Aller">START TRANSACTION</tspan>
+   </text>
+  </switch>
+ </g>
+ <rect id="rect42" transform="scale(-1,1)" rx="9" ry="9" height="60" width="210" stroke="#d0d0d0" y="376" x="-212.5" fill="#d0d0d0"/>
+ <rect id="rect44" transform="scale(-1,1)" pointer-events="none" rx="9" ry="9" height="60" width="210" stroke="#6c8ebf" y="373" x="-210.5" fill="url(#linearGradient4217)"/>
+ <rect id="rect46" transform="scale(-1,1)" pointer-events="none" rx="8.4" ry="8.4" height="56" width="206" stroke="#6c8ebf" y="375" x="-208.5" fill="url(#linearGradient4219)"/>
+ <g id="g48" transform="translate(51.849 389.75)">
+  <switch id="switch50">
+   <foreignObject width="106" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" pointer-events="all" height="21">
+    <xhtml:div font-size="16px" font-family="Helvetica" style="color:rgb(0, 0, 0);width:106px;text-align:center;vertical-align:top;white-space:normal" line-height="1.2" display="inline-block">
+     <xhtml:div style="text-align:inherit;text-decoration:inherit" display="inline-block">ROLLBACK</xhtml:div>
+    </xhtml:div>
+   </foreignObject>
+   <text id="text52" style="text-anchor:middle" font-size="16px" y="19" x="53" font-family="Helvetica" line-height="125%" fill="#000000">
+    <tspan id="tspan4406" font-size="16px" style="text-anchor:middle;text-align:center" line-height="125%" font-family="Aller">ROLLBACK</tspan>
+   </text>
+  </switch>
+ </g>
+ <rect id="rect54" transform="scale(-1,1)" rx="9" ry="9" height="60" width="210" stroke="#d0d0d0" y="46" x="-212.5" fill="#d0d0d0"/>
+ <rect id="rect56" transform="scale(-1,1)" pointer-events="none" rx="9" ry="9" height="60" width="210" stroke="#82b366" y="43" x="-210.5" fill="url(#linearGradient4221)"/>
+ <g id="g58" transform="translate(22.729 59.85)">
+  <switch id="switch60">
+   <foreignObject width="166" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" pointer-events="all" height="21">
+    <xhtml:div font-size="16px" font-family="Helvetica" style="color:rgb(0, 0, 0);width:166px;text-align:center;vertical-align:top;white-space:normal" line-height="1.2" display="inline-block">
+     <xhtml:div style="text-align:inherit;text-decoration:inherit" display="inline-block">insert fixture data
+      <xhtml:br/>
+     </xhtml:div>
+    </xhtml:div>
+   </foreignObject>
+   <text id="text62" style="text-anchor:middle" font-size="16px" y="19" x="83" font-family="Helvetica" line-height="125%" fill="#000000">
+    <tspan id="tspan4400" font-size="16px" style="text-anchor:middle;text-align:center" line-height="125%" font-family="Aller">insert fixture data</tspan>
+   </text>
+  </switch>
+ </g>
+ <rect id="rect80" transform="scale(-1,1)" rx="9" ry="9" height="60" width="210" stroke="#d0d0d0" y="178" x="-557.5" fill="#d0d0d0"/>
+ <rect id="rect82" transform="scale(-1,1)" pointer-events="none" rx="9" ry="9" height="60" width="210" stroke="#82b366" y="175" x="-555.5" fill="url(#linearGradient4223)"/>
+ <g id="g84" transform="translate(366.28 191.8)">
+  <switch id="switch86">
+   <foreignObject width="167" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" pointer-events="all" height="21">
+    <xhtml:div font-size="16px" font-family="Helvetica" style="color:rgb(0, 0, 0);width:167px;text-align:center;vertical-align:top;white-space:normal" line-height="1.2" display="inline-block">
+     <xhtml:div style="text-align:inherit;text-decoration:inherit" display="inline-block">starts Rails server
+      <xhtml:br/>
+     </xhtml:div>
+    </xhtml:div>
+   </foreignObject>
+   <text id="text88" style="text-anchor:middle" font-size="16px" y="19" x="84" font-family="Helvetica" line-height="125%" fill="#000000">
+    <tspan id="tspan4408" font-size="16px" style="text-anchor:middle;text-align:center" line-height="125%" font-family="Aller">starts Rails server</tspan>
+   </text>
+  </switch>
+ </g>
+ <rect id="rect90" transform="scale(-1,1)" rx="9" ry="9" height="60" width="210" stroke="#d0d0d0" y="256" x="-557.5" fill="#d0d0d0"/>
+ <rect id="rect92" transform="scale(-1,1)" pointer-events="none" rx="9" ry="9" height="60" width="210" stroke="#6c8ebf" y="253" x="-555.5" fill="url(#linearGradient4225)"/>
+ <rect id="rect94" transform="scale(-1,1)" pointer-events="none" rx="8.4" ry="8.4" height="56" width="206" stroke="#6c8ebf" y="255" x="-553.5" fill="url(#linearGradient4227)"/>
+ <g id="g96" transform="translate(397.16 267.93)">
+  <switch id="switch98">
+   <foreignObject width="106" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" pointer-events="all" height="21">
+    <xhtml:div font-size="16px" font-family="Helvetica" style="color:rgb(0, 0, 0);width:106px;text-align:center;vertical-align:top;white-space:normal" line-height="1.2" display="inline-block">
+     <xhtml:div style="text-align:inherit;text-decoration:inherit" display="inline-block">DB queries
+      <xhtml:br/>
+     </xhtml:div>
+    </xhtml:div>
+   </foreignObject>
+   <text id="text100" style="text-anchor:middle" font-size="16px" y="19" x="53" font-family="Helvetica" line-height="125%" fill="#000000">
+    <tspan id="tspan4410" font-size="16px" style="text-anchor:middle;text-align:center" line-height="125%" font-family="Aller">DB queries</tspan>
+   </text>
+  </switch>
+ </g>
+ <rect id="rect102" transform="scale(-1,1)" rx="16.5" ry="16.5" height="110" width="210" stroke="#d0d0d0" y="246" x="-212.5" fill="#d0d0d0"/>
+ <rect id="rect104" transform="scale(-1,1)" pointer-events="none" rx="16.5" ry="16.5" height="110" width="210" stroke="#82b366" y="243" x="-210.5" fill="url(#linearGradient4229)"/>
+ <g id="g106" transform="translate(60.733 284.02)">
+  <switch id="switch108">
+   <foreignObject width="89" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" pointer-events="all" height="21">
+    <xhtml:div font-size="16px" font-family="Helvetica" style="color:rgb(0, 0, 0);width:89px;text-align:center;vertical-align:top;white-space:normal" line-height="1.2" display="inline-block">
+     <xhtml:div style="text-align:inherit;text-decoration:inherit" display="inline-block">
+      <xhtml:div align="center">test runs
+       <xhtml:br/>
+      </xhtml:div>
+     </xhtml:div>
+    </xhtml:div>
+   </foreignObject>
+   <text id="text110" style="text-anchor:middle" font-size="16px" y="19" x="45" font-family="Helvetica" line-height="125%" fill="#000000">
+    <tspan id="tspan4404" font-size="16px" style="text-anchor:middle;text-align:center" line-height="125%" font-family="Aller">test runs</tspan>
+   </text>
+  </switch>
+ </g>
+ <g id="g67" transform="translate(-24.666 -40.953)" pointer-events="none" stroke="#000" stroke-miterlimit="10" fill="#fff">
+  <path id="path112" d="m254 307.5h80v-10.5l20 15-20 15v-10.5h-80z" transform="matrix(.98481 .17365 -.17365 .98481 58.797 -48.049)"/>
+  <path id="path114" d="m254 351.5h80v-10.5l20 15-20 15v-10.5h-80z" transform="matrix(-.98481 .17365 .17365 .98481 541.56 -47.381)"/>
+  <path id="path116" d="m254 411.5h80v-10.5l20 15-20 15v-10.5h-80z" transform="matrix(.90631 .42262 -.42262 .90631 204.29 -89.5)"/>
+ </g>
+ <rect id="rect118" width="30" height="20" pointer-events="none" y="293" x="345.5" fill="none"/>
+ <g id="g4366" fill="#a00" transform="matrix(1.6328,0,0,1.3347,-154.58,289.46)">
+  <path id="path4322" d="m344.86 81.284c1.168 3.312 4.326 5.688 8.039 5.688 2.765 0 5.222-1.318 6.779-3.359 1.246 1.686 3.118 2.88 5.273 3.241 1.047 4.205 4.848 7.321 9.376 7.321 4.103 0 7.603-2.555 9.008-6.161 1.035 0.411 2.163 0.638 3.343 0.638 4.299 0 7.899-2.99 8.839-7.004 0.979 0.336 2.027 0.522 3.121 0.522 5.305 0 9.606-4.3 9.606-9.604 0-5.269-4.243-9.545-9.498-9.603-1.336-3.388-4.638-5.788-8.497-5.788-3.855 0-7.149 2.388-8.491 5.764-0.797-0.439-1.66-0.767-2.574-0.964 0.002-0.112 0.008-0.223 0.008-0.335 0-8.022-6.504-14.526-14.527-14.526-7.814 0-14.185 6.17-14.51 13.905-1.417-0.695-3.011-1.087-4.697-1.087-5.902 0-10.685 4.784-10.685 10.685-0.002 5.702 4.463 10.358 10.087 10.667z"/>
+  <g id="g4324" transform="translate(321.51,47.114)">
+   <path id="path4326" fill="#a00" d="m65.236 43.64c-0.506 0-1.008-0.031-1.507-0.089-2.441 3.483-6.43 5.611-10.843 5.611-5.353 0-10.083-3.18-12.161-7.955-0.888-0.332-1.73-0.768-2.509-1.298-1.968 1.327-4.302 2.049-6.758 2.049-0.299 0-0.596-0.014-0.892-0.036-0.087 0.403-0.135 0.819-0.135 1.247 0 3.256 2.641 5.896 5.896 5.896 0.036 0 0.071-0.004 0.106-0.005-0.064 0.388-0.106 0.784-0.106 1.191 0 3.911 3.17 7.081 7.081 7.081 3.307 0 6.078-2.271 6.855-5.335 0.159-0.039 0.318-0.076 0.476-0.124 0.523 3.099 3.212 5.459 6.459 5.459 3.623 0 6.559-2.936 6.559-6.558 0-0.277-0.021-0.55-0.055-0.818 0.59 0.139 1.208 0.22 1.843 0.22 4.444 0 8.051-3.604 8.051-8.049 0-0.512-0.051-1.013-0.142-1.499-2.228 1.893-5.102 3.012-8.218 3.012z"/>
+  </g>
+  <g id="g4328" transform="translate(321.51,47.114)">
+   <path id="path4330" d="m63.196 84.069c-3.962 0.821-8.43 1.26-13.071 1.26-4.642 0-9.112-0.438-13.072-1.263-4.092 4.753-9.678 7.29-9.678 7.29 0 4.774 10.186 8.644 22.75 8.644s22.75-3.869 22.75-8.644c0 0-5.586-2.537-9.679-7.287z"/>
+   <path id="path4332" d="m50.125 77.767c3.231 0 6.408-0.243 9.312-0.702-1.141-4.294-1.927-11.099-2.454-17.401-0.419 0.062-0.849 0.099-1.286 0.099-2.06 0-3.971-0.698-5.487-1.889-1.575 1.196-3.53 1.889-5.619 1.889-0.449 0-0.89-0.041-1.323-0.103-0.526 6.302-1.314 13.109-2.456 17.404 2.906 0.459 6.083 0.703 9.313 0.703z"/>
+  </g>
+  <path id="path4334" d="m381.56 112.46c0.223 1.481 0.469 2.876 0.733 4.135 1.958 0.353 3.782 0.801 5.421 1.343 4.197 1.389 5.614 2.875 5.863 3.342-0.249 0.465-1.665 1.954-5.863 3.339-4.373 1.447-10.081 2.243-16.08 2.243-5.997 0-11.707-0.796-16.08-2.243-4.197-1.385-5.616-2.874-5.865-3.339 0.249-0.467 1.667-1.953 5.865-3.342 1.637-0.542 3.462-0.99 5.419-1.343 0.267-1.259 0.512-2.653 0.734-4.135-9.396 1.435-16.005 4.841-16.005 8.818 0 5.271 11.608 9.543 25.931 9.543 14.322 0 25.931-4.271 25.931-9.543 0.002-3.977-6.608-7.384-16.004-8.818z"/>
+ </g>
+ <text id="text4342" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="17.5px" line-height="125%" y="17.181021" x="64.64994" font-family="&apos;Aller Display&apos;" fill="#000000"><tspan id="tspan4346" font-size="17.5px" line-height="125%" y="17.181021" x="64.64994" font-family="&apos;Aller Display&apos;">Thread #1</tspan></text>
+ <text id="text4350" style="word-spacing:0px;letter-spacing:0px" font-size="17.5px" line-height="125%" y="18.942795" x="409.84244" font-family="&apos;Aller Display&apos;" xml:space="preserve" fill="#000000"><tspan id="tspan4354" x="409.84244" y="18.942795">Thread #2</tspan></text>
+ <g id="g4356" transform="translate(243.8 222.36)">
+  <text id="text4471" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="16px" line-height="125%" y="18.568493" x="17.666346" font-family="Tahoma" fill="#000000"><tspan id="tspan4473" font-size="16px" line-height="125%" y="18.568493" x="17.666346" font-family="Aller">AJAX</tspan></text>
+ </g>
+</svg>

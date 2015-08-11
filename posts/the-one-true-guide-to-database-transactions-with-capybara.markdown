@@ -35,11 +35,24 @@ There are two problems that are teaming up right now to make your life miserable
     Trouble arises most often in this scenario: your integration test performs an action, sees the results it was expecting, and passes.
     At this point, control of the test thread returns to your test cleanup, which will proceed to roll back the transaction.
 
+    <div class="image-container">
+      <object type="image/svg+xml" data="/images/the-one-true-guide-to-database-transactions-with-capybara/threaded_transaction_flow.svg">
+      Transaction flow diagram
+      </object>
+    </div>
+
     *However*, the browser thread may not have finished yet.
     It's not at all uncommon to have an AJAX request or two that are still pending even when your test has passed.
     Maybe it's a follow-up action to what your test performed, like refreshing resource attributes.
     Or maybe it's something unrelated, like credentials verification.
     Whatever the content, the result is that this AJAX request hits your test server, which tries to access the database through the same connection that the other thread is trying to use to clean up.
+
+    <div class="image-container">
+      <object type="image/svg+xml" data="/images/the-one-true-guide-to-database-transactions-with-capybara/threaded_transaction_disaster_flow.svg">
+      Transaction flow diagram
+      </object>
+      <span class="image-attr">[^3]</span>
+    </div>
 
     Databases don't like having multiple concurrent attempts to use a connection.
     When this happens, MySQL will give vague and varying errors, the most frequent of which look like this:
@@ -113,3 +126,4 @@ Go forth and use transactions with Capybara, now and forever![^2]
 
       Okay fine I'll help you.
       Just do five lashes of penitence, then call `TransactionalCapybara::AjaxHelpers.wait_for_ajax(page)` in between your browser commands and your weird database shit, and you should be fine.
+[^3]: Mushroom cloud icon designed by [Gokce Ozan](https://thenounproject.com/gokceozan) from the [Noun Project](http://www.thenounproject.com/).
