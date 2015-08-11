@@ -55,7 +55,7 @@ There are two problems that are teaming up right now to make your life miserable
     You might get them only when the full suite runs, but not with smaller subsets of tests.
     You might see them happen in only one environment (say, on the CI server but not on your development machine).
     It's enough to make you consider a new career.
-    North Dakota is hiring a lot of engineers, FYI.
+    North Dakota is hiring right now, FYI.
 
 ## Two simple steps to fix everything ##
 
