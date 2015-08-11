@@ -7,7 +7,7 @@ So you have a Rails app, and you wrote some tests because you're a responsible d
 You want these tests to run quickly, so you want to use [database transactions] to handle database cleanup.
 Yes, really, you do.
 
-Using transactions instead of deletion or truncation is the hugest and easiest performance win you will find in your test suite.
+Using transactions instead of deletion or truncation is the biggest and easiest performance win you will find in your test suite.
 I've seen this change shave off 5 seconds *per test* on a database with a very ordinary number of tables.
 Savings of 5 seconds per test, with a modest test suite, can easily equal savings of 30 minutes per test run.
 Now multiply that by every developer on your team, every time they need to run the tests and have nothing to do while sitting there waiting for the results.
