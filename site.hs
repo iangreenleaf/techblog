@@ -12,12 +12,15 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match (fromRegex "css/[^_]*.scss") $ do
+    match (fromRegex "css/[^_]*\\.scss") $ do
         route   $ setExtension "css"
-        compile $ liftM (fmap compressCss) $
-          getResourceFilePath >>=
-          \fp -> unixFilter "sass" ["--scss", fp] "" >>=
-          makeItem
+        compile $ getResourceString
+          >>= withItemBody (unixFilter "sass" ["--scss", "--compass"])
+          >>= return . fmap compressCss
+
+    match (fromRegex "fonts/.*\\.(woff2?|ttf|eot)") $ do
+        route   idRoute
+        compile copyFileCompiler
 
     match "index.markdown" $ do
         route   $ setExtension "html"

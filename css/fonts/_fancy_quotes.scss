@@ -1,0 +1,8 @@
+@import "compass/css3/font-face";
+
+@include font-face("Fancy Quotes",
+  font-files('/fonts/fancy_quotes/linlibertine_rb-webfont.woff2',
+             '/fonts/fancy_quotes/linlibertine_rb-webfont.woff',
+             '/fonts/fancy_quotes/linlibertine_rb-webfont.ttf'
+             ),
+  '/fonts/fancy_quotes/linlibertine_rb-webfont.eot', bold, normal);
