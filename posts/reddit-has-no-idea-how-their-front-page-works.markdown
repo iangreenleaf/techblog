@@ -7,7 +7,7 @@ Vice:Motherboard carried a story two days ago titled ["Reddit Is Working on an E
 
 The conclusion of the Vice article seems plausible: that the algorithm hasn't changed, but growth of the site and the usage patterns that came with it caused an imbalance in the factors used for scoring. But the real story lies in what Reddit had to say about the scoring problems.
 
-<blockquote cite="http://motherboard.vice.com/read/reddit-admits-its-front-page-is-broken-is-working-on-an-entirely-new-algorithm">Users have been complaining about the front page being stale, and they might be right," Steve Huffman, Reddit's CEO, told me in a phone interview. "I've noticed it too. We didn't change anything, but it feels slower.</blockquote>
+<blockquote cite="http://motherboard.vice.com/read/reddit-admits-its-front-page-is-broken-is-working-on-an-entirely-new-algorithm">"Users have been complaining about the front page being stale, and they might be right," Steve Huffman, Reddit's CEO, told me in a phone interview. "I've noticed it too. We didn't change anything, but it feels slower."</blockquote>
 
 Asked about it a month ago, the CTO (that's Chief *Technical* Officer) admitted he didn't know. He [relayed the question to a developer](https://www.reddit.com/r/announcements/comments/3lv3qo/marty_weiner_reddit_cto_back_to_cto_all_the_things/cv9jiku), who responded with gaslighting:
 
