@@ -1,13 +1,13 @@
 ---
 title: Reddit has no idea how their front page works
-date: 2015-10-07
+date: 2015-10-08
 ---
 
-Vice:Motherboard yesterday carried a story titled ["Reddit Is Working on an Entirely New Front Page Algorithm"](http://motherboard.vice.com/read/reddit-admits-its-front-page-is-broken-is-working-on-an-entirely-new-algorithm). It covers recent dissatisfaction among Redditors with perceived changes in how articles reach the front page. It's a fine title, but I think mine is at least as accurate.
+Vice:Motherboard carried a story two days ago titled ["Reddit Is Working on an Entirely New Front Page Algorithm"](http://motherboard.vice.com/read/reddit-admits-its-front-page-is-broken-is-working-on-an-entirely-new-algorithm). It covers recent dissatisfaction among Redditors with perceived changes in how articles reach the front page. It's a fine title, but I think mine is at least as accurate.
 
 The conclusion of the Vice article seems plausible: that the algorithm hasn't changed, but growth of the site and the usage patterns that came with it caused an imbalance in the factors used for scoring. But the real story lies in what Reddit had to say about the scoring problems.
 
-<blockquote cite="http://motherboard.vice.com/read/reddit-admits-its-front-page-is-broken-is-working-on-an-entirely-new-algorithm">"Users have been complaining about the front page being stale, and they might be right," Steve Huffman, Reddit's CEO, told me in a phone interview. "I've noticed it too. We didn't change anything, but it feels slower."</blockquote>
+<blockquote cite="http://motherboard.vice.com/read/reddit-admits-its-front-page-is-broken-is-working-on-an-entirely-new-algorithm">Users have been complaining about the front page being stale, and they might be right," Steve Huffman, Reddit's CEO, told me in a phone interview. "I've noticed it too. We didn't change anything, but it feels slower.</blockquote>
 
 Asked about it a month ago, the CTO (that's Chief *Technical* Officer) admitted he didn't know. He [relayed the question to a developer](https://www.reddit.com/r/announcements/comments/3lv3qo/marty_weiner_reddit_cto_back_to_cto_all_the_things/cv9jiku), who responded with gaslighting:
 
@@ -17,7 +17,7 @@ This response isn't hugely surprising. After all, [a serious bug in the "hotness
 
 This latest scoring problem has been growing for a long time, even if public uproar only started recently. Besides a conceptual analysis of the scoring algorithm, there are other ways this could have been detected. If Reddit tracked some basic metrics about front-page stories, such as "average/max story age" and "time to reach front page", they could have identified the changing nature of the site long before it became obvious to the public. But instead it grew to a point where it was identifiable even with a "black box" view of the site, and where the first official acknowledgement came from the CEO eyeballing the site in his browser.
 
-<blockquote cite="http://motherboard.vice.com/read/reddit-admits-its-front-page-is-broken-is-working-on-an-entirely-new-algorithm">"I'm 90 percent sure it's as simple as that. The other 10 percent is, maybe there's something else going on."</blockquote>
+<blockquote cite="http://motherboard.vice.com/read/reddit-admits-its-front-page-is-broken-is-working-on-an-entirely-new-algorithm">I'm 90 percent sure it's as simple as that. The other 10 percent is, maybe there's something else going on.</blockquote>
 
 **No one at Reddit fully understands how their front page algorithm works.** Reddit is the top and only source of news for thousands (millions?) of people, and a drastic shift occurred in the selection of which news is made visible, and no one at Reddit had any control over this process.
 
@@ -31,7 +31,7 @@ These are only the tech "giants". A second wave of algorithmic takeover is under
 
 These companies don't all attract the top tech talent. They don't all have enormous technical budgets. They don't all have company culture conducive to good engineering practices. So when these companies hand over a piece of their business to an algorithm, odds are good they're making uneducated guesses and testing them poorly. If Reddit cannot write an algorithm that functions properly in the first place, nor maintain enough insight into its behavior to know when things go wrong, what chance do all the others have?
 
-We've voiced concerns about the ["filter bubble"](http://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles) that shapes what we see online. But our problems extend beyond the blinders of our past preferences. A world is looming where our lives are not only controlled by algorithms, but where even their creators lack basic visibility into how these algorithms work or if they are behaving as expected.
+You've probably already heard concerns about the ["filter bubble"](http://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles) that shapes what we see online based on our past preferences. But our problems extend beyond these self-directed blinders. A world is looming where our lives are not only controlled by algorithms, but where even their creators lack basic visibility into how these algorithms work or if they are behaving as expected.
 
 I'm no King Ludd urging you to smash the looms. Algorithms can do great things. They can produce incredible effectiveness, beauty, or serendipity. But it's time to recognize them not as magic, but as tools that do good or harm dependent on our skill in applying them.
 
