@@ -12,11 +12,16 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    -- Dummy entries to reload SCSS when mixins change
+    match "css/**/_*.scss" $ compile $ makeItem ()
+
     match (fromRegex "css/[^_]*\\.scss") $ do
         route   $ setExtension "css"
-        compile $ getResourceString
-          >>= withItemBody (unixFilter "sass" ["--scss", "--compass"])
-          >>= return . fmap compressCss
+        compile $ do
+          _ <- loadAll "css/**/_*.scss" :: Compiler [Item ()]
+          getResourceString
+            >>= withItemBody (unixFilter "sass" ["--scss", "--compass"])
+            >>= return . fmap compressCss
 
     match (fromRegex "fonts/.*\\.(woff2?|ttf|eot)") $ do
         route   idRoute
