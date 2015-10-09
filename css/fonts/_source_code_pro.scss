@@ -1,0 +1,15 @@
+@import "compass/css3/font-face";
+
+@include font-face("Source Code Pro",
+  font-files('/fonts/source_code_pro/sourcecodepro-medium-webfont.woff2',
+             '/fonts/source_code_pro/sourcecodepro-medium-webfont.woff',
+             '/fonts/source_code_pro/sourcecodepro-medium-webfont.ttf'
+             ),
+  '/fonts/source_code_pro/sourcecodepro-medium-webfont.eot', 500, normal);
+
+@include font-face("Source Code Pro",
+  font-files('/fonts/source_code_pro/sourcecodepro-semibold-webfont.woff2',
+             '/fonts/source_code_pro/sourcecodepro-semibold-webfont.woff',
+             '/fonts/source_code_pro/sourcecodepro-semibold-webfont.ttf'
+             ),
+  '/fonts/source_code_pro/sourcecodepro-semibold-webfont.eot', 600, normal);

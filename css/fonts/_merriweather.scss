@@ -1,0 +1,29 @@
+@import "compass/css3/font-face";
+
+@include font-face("Merriweather",
+  font-files('/fonts/merriweather/merriweather-regular-webfont.woff2',
+             '/fonts/merriweather/merriweather-regular-webfont.woff',
+             '/fonts/merriweather/merriweather-regular-webfont.ttf'
+             ),
+  '/fonts/merriweather/merriweather-regular-webfont.eot', 400, normal);
+
+@include font-face("Merriweather",
+  font-files('/fonts/merriweather/merriweather-italic-webfont.woff2',
+             '/fonts/merriweather/merriweather-italic-webfont.woff',
+             '/fonts/merriweather/merriweather-italic-webfont.ttf'
+             ),
+  '/fonts/merriweather/merriweather-italic-webfont.eot', 400, italic);
+
+@include font-face("Merriweather",
+  font-files('/fonts/merriweather/merriweather-bold-webfont.woff2',
+             '/fonts/merriweather/merriweather-bold-webfont.woff',
+             '/fonts/merriweather/merriweather-bold-webfont.ttf'
+             ),
+  '/fonts/merriweather/merriweather-bold-webfont.eot', 700, normal);
+
+@include font-face("Merriweather",
+  font-files('/fonts/merriweather/merriweather-boldit-webfont.woff2',
+             '/fonts/merriweather/merriweather-boldit-webfont.woff',
+             '/fonts/merriweather/merriweather-boldit-webfont.ttf'
+             ),
+  '/fonts/merriweather/merriweather-boldit-webfont.eot', 700, italic);

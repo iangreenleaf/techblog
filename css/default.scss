@@ -1,5 +1,7 @@
 @import "compass/typography/text/replacement";
 @import "fonts/fancy_quotes";
+@import "fonts/merriweather";
+@import "fonts/source_code_pro";
 @import "mixins";
 
 body {
@@ -17,6 +19,7 @@ p {
 
 code {
   font-family: 'Source Code Pro', sans-serif;
+  font-weight: 500;
   color: #383838;
   background: #eee;
   padding: 0 0.3em 0 0.2em;
